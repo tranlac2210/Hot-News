@@ -1,0 +1,32 @@
+/* 
+.button-container {
+    float: right;
+} */
+body {
+    background-color: #ebebeb;
+}
+
+#login-form {
+    margin-top: 10%;
+    background-color: white;
+}
+
+.item {
+    padding-left:3rem;
+    padding-right:3rem;
+    list-style: none;
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.item a:hover {
+    color: #0d6efd;
+}
+
+.item:hover {
+    background-color: #0d6efd;
+}
