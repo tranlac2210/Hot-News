@@ -3,38 +3,23 @@
   background-color: rgb(169, 0, 0);
   line-height: 55px;
 }
-.maxim{
-  display: inline;
+.breaking-news{
   color: white;
   font-weight: bold;
-  margin-left: 10px;
-  margin-right: 640px;
 }
-.channel{
-  display: inline;
-  background-color: rgb(169, 0, 0);
-  border: none;
+.first-container a{
+  text-decoration: none;
   color: white;
-  margin-right: 20px;
+  padding-left: 5rem;
 }
-.channel:hover{
+.first-container a:hover{
   text-decoration: underline;
-}
-.follow{
-  display: inline;
   color: white;
-  border: none;
-  font-weight: bold;
-  font-size: 18px;
-  margin-right: 25px;
 }
-.vl{
-  display: inline;
-  border-left: 2px solid white;
-  margin-right: 25px;
-  margin-left: 35px;
+.first-container a:active{
+  opacity: 0.5;
 }
-.fa{
+.btn-icon{
   display: inline;
   border: none;
   background-color: rgb(211, 0, 0);
@@ -46,13 +31,22 @@
   height: 32px;
   width: 32px;
   box-shadow: 2.5px 5px 7.5px rgba(0, 0, 0, 0.5);
+  line-height: initial;
 }
-.fa:hover{
+.btn-icon:hover{
   opacity: 0.8;
-  
 }
-.fa:active{
+.btn-icon:active{
   opacity: 0.5;
+}
+.follow{
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.vl{
+  border-left: 2px solid white;
 }
 
 /* 2nd row footer */
@@ -80,6 +74,9 @@
 .main:hover{
   text-decoration: underline;
 }
+.main:active{
+  opacity: 0.5;
+}
 .categories{
   color: white;
   background-color: rgb(35, 35, 35);
@@ -89,6 +86,9 @@
 }
 .categories:hover{
   text-decoration: underline;
+}
+.categories:active{
+  opacity: 0.5;
 }
 
 /* 3rd row footer */
