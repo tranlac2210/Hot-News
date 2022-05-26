@@ -1,0 +1,29 @@
+
+
+.logo{
+    height: 50px;
+    weight:100px;
+}
+.item {
+    padding.left: 3rem;
+    padding-right: 3rem;
+    list-style: none;
+    border-top-color: pink;
+    
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+
+.item a:hover{
+    background-color: grey;
+    color: white;
+}
+
+.item:hover{
+    background-color:
+}
