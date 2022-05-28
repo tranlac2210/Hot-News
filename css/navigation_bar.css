@@ -1,29 +1,27 @@
-
-
 .logo{
     height: 50px;
-    weight:100px;
 }
-.item {
-    padding.left: 3rem;
-    padding-right: 3rem;
+.item{
+    /* padding-top: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem; */
     list-style: none;
-    border-top-color: pink;
-    
-}
+    border-top-style:solid;
+}   
 
 .item a{
     text-decoration: none;
     color: black;
-    text-align: center;
+    appearance: none;
 
 }
 
 .item a:hover{
-    background-color: grey;
-    color: white;
+    color: yellow;
 }
 
-.item:hover{
-    background-color:
+#btn-sign-in{
+    border-top: solid purple;
 }
+
+
