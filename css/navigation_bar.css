@@ -1,0 +1,27 @@
+.logo{
+    height: 50px;
+}
+.item{
+    /* padding-top: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem; */
+    list-style: none;
+    border-top-style:solid;
+}   
+
+.item a{
+    text-decoration: none;
+    color: black;
+    appearance: none;
+
+}
+
+.item a:hover{
+    color: yellow;
+}
+
+#btn-sign-in{
+    border-top: solid purple;
+}
+
+
