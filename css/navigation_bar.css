@@ -7,17 +7,28 @@
     padding-right: 3rem; */
     list-style: none;
     border-top-style:solid;
+    text-align: center;
+    padding: 0.5rem;
 }   
 
 .item a{
     text-decoration: none;
     color: black;
     appearance: none;
-
+    
 }
 
-.item a:hover{
-    color: yellow;
+.item:hover a{
+    color: white;
+}
+
+#news {
+    border-top-color: violet;
+}
+
+#news:hover {
+    background-color: violet;
+    border-top: solid black;
 }
 
 #btn-sign-in{
