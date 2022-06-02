@@ -6,9 +6,9 @@
     padding-left: 3rem;
     padding-right: 3rem; */
     list-style: none;
-    border-top-style:solid;
     text-align: center;
     padding: 0.5rem;
+    
 }   
 
 .item a{
@@ -23,7 +23,7 @@
 }
 
 #news {
-    border-top-color: violet;
+    border-top: solid violet;
 }
 
 #news:hover {
@@ -31,8 +31,50 @@
     border-top: solid black;
 }
 
-#btn-sign-in{
-    border-top: solid purple;
+#fashion {
+    border-top: solid green;
+}
+
+#fashion:hover {
+    background-color: green;
+    border-top: solid black;
+}
+
+#images {
+    border-top: solid red;
+}
+
+#images:hover {
+    background-color: red;
+    border-top: solid black;
+}
+
+#videos {
+    border-top: solid blue;
+}
+
+#videos:hover {
+    background-color: blue;
+    border-top: solid black;
+}
+
+#support {
+    border-top: solid orangered;
+}
+
+#support:hover {
+    background-color: orangered;
+    border-top: solid black;
+}
+
+
+#btn-sign-in:hover {
+    border-radius: 80%;
+    background-color:aqua;
+}
+
+#btn-sign-in a:active {
+    opacity: 0.1;
 }
 
 
