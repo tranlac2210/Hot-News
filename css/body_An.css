@@ -1,0 +1,67 @@
+/* 1st row */
+.card-body-1st{
+  background-color: rgba(240, 240, 240, 0.811);
+}
+.card-title{
+  text-align: left;
+}
+.title{
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: 600;
+}
+.date{
+  font-size: 18px;
+  font-family: Monaco;
+}
+
+/* 2nd row */
+.card-body-2nd {
+  background-color: rgba(240, 240, 240, 0.811);
+}
+.card-body-2nd a{
+  background-color: rgba(240, 240, 240, 0.811);
+  border: none;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
+.card-body-2nd a:hover{
+  color:rgb(201, 31, 31);
+}
+
+/* 3rd row */
+.card-body-3rd {
+  background-color: rgba(240, 240, 240, 0.811);
+}
+.reporters{
+  display: inline-block;
+}
+.staff{
+  border-radius: 70px;
+  width: 80px;
+}
+.profile{
+  display: inline-block;
+}
+.profile a{
+  display: block;
+  border: none;
+  background-color: rgba(240, 240, 240, 0.811);
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+.profile a:hover{
+  text-decoration: underline;
+  color: #006598;
+}
+.profile a:active{
+  opacity: 0.6;
+}
+.position{
+  display: inline-block;
+  font-size: 12px;
+}
