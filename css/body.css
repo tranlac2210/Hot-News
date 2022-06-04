@@ -2,16 +2,13 @@
 .card-body-1st{
   background-color: rgba(240, 240, 240, 0.811);
 }
-.card-title{
-  text-align: left;
-}
 .title{
-  font-size: 30px;
+  font-size: larger;
   font-family: Georgia;
   font-weight: 600;
 }
 .date{
-  font-size: 18px;
+  font-size: small;
   font-family: Monaco;
 }
 
@@ -25,6 +22,7 @@
   text-align: left;
   font-family: Arial;
   font-weight: 300;
+  font-size: small;
   text-decoration: none;
   color: black;
 }
@@ -36,21 +34,17 @@
 .card-body-3rd {
   background-color: rgba(240, 240, 240, 0.811);
 }
-.reporters{
-  display: inline-block;
-}
 .staff{
   border-radius: 70px;
-  width: 80px;
-}
-.profile{
-  display: inline-block;
+  width: 50px;
 }
 .profile a{
+  padding-top: 0.3rem;
   display: block;
   border: none;
   background-color: rgba(240, 240, 240, 0.811);
   font-weight: 500;
+  font-size: medium;
   text-decoration: none;
   color: black;
 }
@@ -62,6 +56,5 @@
   opacity: 0.6;
 }
 .position{
-  display: inline-block;
-  font-size: 12px;
+  font-size: x-small;
 }
