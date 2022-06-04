@@ -2,17 +2,26 @@
 .card-body-1st{
   background-color: rgba(240, 240, 240, 0.811);
 }
+
+.first-pic{
+  width:30px;
+}
 .card-title{
   text-align: left;
 }
+.first-pic {
+  text-decoration: none;
+}
+
 .title{
-  font-size: 30px;
+  font-size: medium;
   font-family: Georgia;
   font-weight: 600;
 }
+
 .date{
-  font-size: 18px;
-  font-family: Monaco;
+  font-size: 10px;
+  font-weight: 50;
 }
 
 /* 2nd row */
@@ -39,7 +48,7 @@
 .reporters{
   display: inline-block;
 }
-.staff{
+.reporter-photo{
   border-radius: 70px;
   width: 80px;
 }
