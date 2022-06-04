@@ -4,14 +4,12 @@
 }
 
 .first-pic{
-  width:30px;
+  width:18rem;
 }
 .card-title{
   text-align: left;
 }
-.first-pic {
-  text-decoration: none;
-}
+
 
 .title{
   font-size: medium;
@@ -49,6 +47,7 @@
   display: inline-block;
 }
 .reporter-photo{
+  padding: 10px;
   border-radius: 70px;
   width: 80px;
 }
