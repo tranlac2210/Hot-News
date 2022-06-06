@@ -1,11 +1,38 @@
-/* 1st row */
+/* general */
+*{
+  margin:0 !important;
+}
+
+.card{
+  padding:10px;
+  /* min-height: 350px; */
+}
+
+.top{
+  position:relative
+}
+/* top */
+.picture-note {
+  font-size: 80%;
+  padding: 1%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  text-align: center;
+  color:white;
+  font-weight: 50%;
+  background: rgb(234, 23, 23);
+}
+.first-pic{
+  width: 100%;
+}
+
+/* card-body-1st */
 .card-body-1st{
   background-color: rgba(240, 240, 240, 0.811);
 }
 
-.first-pic{
-  width:18rem;
-}
 .card-title{
   text-align: left;
 }
@@ -19,12 +46,14 @@
 
 .date{
   font-size: 10px;
-  font-weight: 50;
+  font-weight: 10;
+  
 }
 
-/* 2nd row */
+/* card-body-2nd */
 .card-body-2nd {
   background-color: rgba(240, 240, 240, 0.811);
+  min-height: 67px;
 }
 .card-body-2nd a{
   background-color: rgba(240, 240, 240, 0.811);
@@ -37,38 +66,48 @@
 }
 .card-body-2nd a:hover{
   color:rgb(201, 31, 31);
+  text-decoration: underline;
 }
 
-/* 3rd row */
+.card-body-2nd a:active{
+  opacity: 0.6;
+}
+
+/* card-body-3rd */
 .card-body-3rd {
   background-color: rgba(240, 240, 240, 0.811);
 }
-.reporters{
-  display: inline-block;
-}
+
 .reporter-photo{
   padding: 10px;
   border-radius: 70px;
   width: 80px;
 }
-.profile{
-  display: inline-block;
+.profile {
+  padding:10px;
 }
-.profile a{
-  display: block;
+
+.reporter-job {
+  font-size: 10px;
+  font-weight: 300;  
+}
+
+.profile a {
   border: none;
   background-color: rgba(240, 240, 240, 0.811);
   font-weight: 500;
   text-decoration: none;
-  color: black;
+  color: black; 
 }
 .profile a:hover{
   text-decoration: underline;
   color: #006598;
 }
+
 .profile a:active{
   opacity: 0.6;
 }
+
 .position{
   display: inline-block;
   font-size: 12px;
