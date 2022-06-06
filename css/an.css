@@ -1,0 +1,392 @@
+body {
+    padding: 1.5rem;
+}
+
+.row {
+    --bs-gutter-x: 0!important;
+}
+
+/* NAV BAR */
+#my-nav-bar {
+    margin-bottom: 2rem!important;
+}
+
+.logo{
+    height: 50px;
+}
+.item{
+    /* padding-top: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem; */
+    list-style: none;
+    text-align: center;
+    padding: 0.5rem;
+    
+}   
+
+.item a{
+    text-decoration: none;
+    color: black;
+    appearance: none;
+    
+}
+
+.item:hover a{
+    color: white;
+}
+
+#news {
+    border-top: solid violet;
+}
+
+#news:hover {
+    background-color: violet;
+    border-top: solid black;
+}
+
+#fashion {
+    border-top: solid green;
+}
+
+#fashion:hover {
+    background-color: green;
+    border-top: solid black;
+}
+
+#sports {
+    border-top: solid red;
+}
+
+#sports:hover {
+    background-color: red;
+    border-top: solid black;
+}
+
+#videos {
+    border-top: solid blue;
+}
+
+#videos:hover {
+    background-color: blue;
+    border-top: solid black;
+}
+
+#support {
+    border-top: solid orangered;
+}
+
+#support:hover {
+    background-color: orangered;
+    border-top: solid black;
+}
+
+
+#btn-sign-in:hover {
+    border-radius: 80%;
+    background-color:aqua;
+}
+
+#btn-sign-in a:active {
+    opacity: 0.8;
+}
+
+/* END NAV BAR */
+
+/* MAIN CONTENT LAC */
+/* 1st row */
+/* #main-container {
+    border: 1px solid #006598;
+
+} */
+
+.my-column {
+    padding: 0.75rem !important;
+}
+
+.card-body-1st{
+    background-color: rgba(240, 240, 240, 0.811);
+  }
+  .title{
+    font-size: larger;
+    font-family: Georgia;
+    font-weight: 600;
+  }
+  .date{
+    font-size: small;
+    font-family: Monaco;
+  }
+  
+  /* 2nd row */
+  .card-body-2nd {
+    background-color: rgba(240, 240, 240, 0.811);
+  }
+  .card-body-2nd a{
+    background-color: rgba(240, 240, 240, 0.811);
+    border: none;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 300;
+    font-size: small;
+    text-decoration: none;
+    color: black;
+  }
+  .card-body-2nd a:hover{
+    color:rgb(201, 31, 31);
+  }
+  
+  /* 3rd row */
+  .card-body-3rd {
+    background-color: rgba(240, 240, 240, 0.811);
+  }
+  .staff{
+    border-radius: 70px;
+    width: 50px;
+  }
+  .profile a{
+    /* padding-top: 0.3rem; */
+    display: block;
+    border: none;
+    background-color: rgba(240, 240, 240, 0.811);
+    font-weight: 500;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+  }
+  .profile a:hover{
+    text-decoration: underline;
+    color: #006598;
+  }
+  .profile a:active{
+    opacity: 0.6;
+  }
+  .position{
+    font-size: x-small;
+  }
+
+/* MAIN CONTENT LAC */
+
+/* MAIN CONTENT AN */
+/* general */
+*{
+    margin:0 !important;
+  }
+  
+  .card{
+    padding:10px;
+    /* min-height: 350px; */
+  }
+  
+  .top{
+    position:relative
+  }
+  /* top */
+  .picture-note {
+    font-size: 80%;
+    padding: 1%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    text-align: center;
+    color:white;
+    font-weight: 50%;
+    background: rgb(234, 23, 23);
+  }
+  .first-pic{
+    width: 100%;
+  }
+  
+  /* card-body-1st */
+  .card-body-1st{
+    background-color: rgba(240, 240, 240, 0.811);
+  }
+  
+  .card-title{
+    text-align: left;
+  }
+  
+  
+  .title{
+    font-size: medium;
+    font-family: Georgia;
+    font-weight: 600;
+  }
+  
+  .date{
+    font-size: 10px;
+    font-weight: 10;
+    
+  }
+  
+  /* card-body-2nd */
+  .card-body-2nd {
+    background-color: rgba(240, 240, 240, 0.811);
+    min-height: 67px;
+  }
+  .card-body-2nd a{
+    background-color: rgba(240, 240, 240, 0.811);
+    border: none;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+  }
+  .card-body-2nd a:hover{
+    color:rgb(201, 31, 31);
+    text-decoration: underline;
+  }
+  
+  .card-body-2nd a:active{
+    opacity: 0.6;
+  }
+  
+  /* card-body-3rd */
+  .card-body-3rd {
+    background-color: rgba(240, 240, 240, 0.811);
+  }
+  
+  .reporter-photo{
+    padding: 10px;
+    border-radius: 70px;
+    width: 80px;
+  }
+  .profile {
+    /* padding:10px; */
+  }
+  
+  .reporter-job {
+    font-size: 10px;
+    font-weight: 300;  
+  }
+  
+  .profile a {
+    border: none;
+    background-color: rgba(240, 240, 240, 0.811);
+    font-weight: 500;
+    text-decoration: none;
+    color: black; 
+  }
+  .profile a:hover{
+    text-decoration: underline;
+    color: #006598;
+  }
+  
+  .profile a:active{
+    opacity: 0.6;
+  }
+  
+  .position{
+    display: inline-block;
+    font-size: 12px;
+  }
+
+/* END MAIN CONTENT AN */
+
+/* FOOTER */
+/* 1st row footer */
+.first-row-footer{
+    background-color: rgb(169, 0, 0);
+    line-height: 55px;
+  }
+  .breaking-news{
+    color: white;
+    font-weight: bold;
+  }
+  .first-container a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5rem;
+  }
+  .first-container a:hover{
+    text-decoration: underline;
+    color: white;
+  }
+  .first-container a:active{
+    opacity: 0.5;
+  }
+  .btn-icon{
+    display: inline;
+    border: none;
+    background-color: rgb(211, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+    border-radius: 30px;
+    height: 32px;
+    width: 32px;
+    box-shadow: 2.5px 5px 7.5px rgba(0, 0, 0, 0.5);
+    line-height: initial;
+  }
+  .btn-icon:hover{
+    opacity: 0.8;
+  }
+  .btn-icon:active{
+    opacity: 0.5;
+  }
+  .follow{
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .vl{
+    border-left: 2px solid white;
+  }
+  
+  /* 2nd row footer */
+  .second-row-footer{
+    background-color: rgb(35, 35, 35);
+    width: auto;
+    height: auto;
+  }
+  .contain{
+    width: 160px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+  }
+  .main{
+    margin-bottom: 12px;
+    color: white;
+    background-color: rgb(35, 35, 35);
+    border: none;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+  .main:hover{
+    text-decoration: underline;
+  }
+  .main:active{
+    opacity: 0.5;
+  }
+  .categories{
+    color: white;
+    background-color: rgb(35, 35, 35);
+    border: none;
+    font-size: 12px;
+    font-family: Helvetica;
+  }
+  .categories:hover{
+    text-decoration: underline;
+  }
+  .categories:active{
+    opacity: 0.5;
+  }
+  
+  /* 3rd row footer */
+  .copyright{
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+    line-height: 50px;
+  }
+  .first{
+    color: rgb(123, 123, 123)
+  }
+  .second{
+    color: rgb(217, 217, 217);
+  }
+/* END FOOTER */
