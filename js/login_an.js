@@ -1,10 +1,8 @@
 const USERS = {
-  "giaitran": "12101989",
-  "lactran": "22101989",
-  "annguyen": "01122000",
-}
-
-
+  giaitran: '12101989',
+  lactran: '22101989',
+  annguyen: '01122000',
+};
 
 function login() {
   var user_name = document.getElementById('user-name').value;
