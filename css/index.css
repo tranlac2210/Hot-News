@@ -80,14 +80,18 @@ body {
     border-top: solid black;
 }
 
+/* .item:hover a:last-child{
+  background-color: black;
+} */
 
 #btn-sign-in:hover {
-    border-radius: 80%;
-    background-color:aqua;
+    /* border-radius: 80%; */
+    /* background-color:aqua; */
+    color: black;
 }
 
 #btn-sign-in a:active {
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 /* END NAV BAR */
