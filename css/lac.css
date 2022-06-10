@@ -1,7 +1,6 @@
 body {
     padding: 1.5rem;
 }
-
 .row {
     --bs-gutter-x: 0!important;
 }
@@ -10,7 +9,6 @@ body {
 #my-nav-bar {
     margin-bottom: 2rem!important;
 }
-
 .logo{
     height: 50px;
 }
@@ -23,73 +21,62 @@ body {
     padding: 0.5rem;
     
 }   
-
 .item a{
     text-decoration: none;
     color: black;
-    appearance: none;
-    
+    appearance: none;   
 }
-
 .item:hover a{
     color: white;
 }
 
 #news {
-    border-top: solid violet;
+    border-top: solid violet 0.3rem;
 }
-
 #news:hover {
     background-color: violet;
-    border-top: solid black;
+    border-top: solid black 0.3rem;
 }
 
 #fashion {
-    border-top: solid green;
+    border-top: solid green 0.3rem;
 }
-
 #fashion:hover {
     background-color: green;
-    border-top: solid black;
+    border-top: solid black 0.3rem;
 }
 
 #sports {
-    border-top: solid red;
+    border-top: solid red 0.3rem;
 }
-
 #sports:hover {
     background-color: red;
-    border-top: solid black;
+    border-top: solid black 0.3rem;
 }
 
 #videos {
-    border-top: solid blue;
+    border-top: solid blue 0.3rem;
 }
-
 #videos:hover {
     background-color: blue;
-    border-top: solid black;
+    border-top: solid black 0.3rem;
 }
 
 #support {
-    border-top: solid orangered;
+    border-top: solid orangered 0.3rem;
 }
-
 #support:hover {
     background-color: orangered;
-    border-top: solid black;
+    border-top: solid black 0.3rem;
 }
 
-
-#btn-sign-in:hover {
-    border-radius: 80%;
-    background-color:aqua;
+#user{
+  border-top: solid yellowgreen 0.3rem; 
 }
-
-#btn-sign-in a:active {
-    opacity: 0.8;
+#user:hover{
+  background-color: yellowgreen;
+  border-top: solid black 0.3rem;
 }
-
 /* END NAV BAR */
 
 /* MAIN CONTENT LAC */
@@ -251,9 +238,9 @@ body {
     border-radius: 70px;
     width: 80px;
   }
-  .profile {
-    /* padding:10px; */
-  }
+  /* .profile{
+    padding:10px;
+  } */
   
   .reporter-job {
     font-size: 10px;
@@ -286,7 +273,7 @@ body {
 /* FOOTER */
 /* 1st row footer */
 .first-row-footer{
-    background-color: rgb(169, 0, 0);
+    background-color: #163358;
     line-height: 55px;
   }
   .breaking-news{
@@ -308,7 +295,7 @@ body {
   .btn-icon{
     display: inline;
     border: none;
-    background-color: rgb(211, 0, 0);
+    background-color: #355783;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -337,7 +324,7 @@ body {
   
   /* 2nd row footer */
   .second-row-footer{
-    background-color: rgb(35, 35, 35);
+    background-color: #29446687;
     width: auto;
     height: auto;
   }
@@ -351,7 +338,7 @@ body {
   .main{
     margin-bottom: 12px;
     color: white;
-    background-color: rgb(35, 35, 35);
+    background-color: #f2641900;
     border: none;
     font-size: 14px;
     font-family: Helvetica;
@@ -365,7 +352,7 @@ body {
   }
   .categories{
     color: white;
-    background-color: rgb(35, 35, 35);
+    background-color: #f2641900;
     border: none;
     font-size: 12px;
     font-family: Helvetica;
@@ -380,13 +367,14 @@ body {
   /* 3rd row footer */
   .copyright{
     text-align: center;
-    background-color: rgb(23, 23, 23);
+    background-color: #163358;
     line-height: 50px;
   }
   .first{
-    color: rgb(123, 123, 123)
+    color: rgb(0, 0, 0)
+    
   }
   .second{
-    color: rgb(217, 217, 217);
+    color: white;
   }
 /* END FOOTER */
