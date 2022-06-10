@@ -1,35 +1,49 @@
-const USERS = {
-  "giaitran": "12101989",
-  "lactran": "22101989",
-  "annguyen": "01122000",
-}
+// const USERS = {
+//   "giaitran": "12101989",
+//   "lactran": "22101989",
+//   "annguyen": "01122000",
+// }
 
+const USERS = [
+  {
+    user_name: 'giaitran',
+    password: '12101989',
+  },
+  {
+    user_name: 'lactran',
+    password: '22101989',
+  },
+  {
+    user_name: 'annguyen',
+    password: '01122000',
+  },
+];
 
+// const togglePassword = document.querySelector("#eye-icon");
+// const password = document.querySelector("#password");
 
-function login() {
-  var user_name = document.getElementById('user-name').value;
-  var password = document.getElementById('password').value;
-
-  if (user_name === 'giai' && password === 'tran') {
-    alert('User is authenticated');
-    window.location.replace(
-      'file:///C:/Users/giait/Desktop/Hot%20News%20Project/Hot-News/homepage.html'
-    );
-  } else {
-    alert('Invalid username of password');
-  }
-}
+// togglePassword.addEventListener("click", function()
+// {
+//   const type = password.getAttribute("type") === "password" ? "text" : "password"; password.getAttribute("type", type)
+//   this.classList.toggle("bi-eye")
+// });
 
 // JQuery
 $(document).on('click', 'button#button-login', function () {
   var user_name = $('input#user-name').val();
   var password = $('input#password').val();
 
-  if (user_name === 'giai' && password === 'tran') {
-    alert('User is authenticated');
-  } else {
-    alert('Invalid username of password');
-    $('input#user-name').hasClass('error');
-    $('input#password').addClass('error');
+  for (i = 0; i < USERS.length; i++) {
+    if (user_name == USERS[i].user_name && password == USERS[i].password) {
+      alert('User is authenicated');
+      window.location.replace(
+        'C:\\Users\\giait\\Desktop\\Hot News Project\\Hot-News\\index.html?username=' +
+          user_name
+      );
+      return;
+    }
   }
+  alert('Invalid username or password');
+  $('input#user-name').hasClass('error');
+  $('input#password').addClass('error');
 });
