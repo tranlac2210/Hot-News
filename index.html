@@ -5,10 +5,12 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
+    <title>
+      Hot News
+    </title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/lac.css" />
     <!--Fontawesome css-->
     <link
       rel="stylesheet"
@@ -25,9 +27,12 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body style="background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);">
     <!-- NAV BAR -->
-    <div id="my-nav-bar" class="bg-light justify-content-between px-0 navBar">
+    <div id="my-nav-bar" class="bg-light justify-content-between px-0 navBar" 
+          style=" padding-left: 0.75rem !important;
+                  margin-right: 0.9rem !important;
+                  background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);">
       <div class="row">
         <div class="col-auto p-0">
           <img class="logo" src="hot_news.png" alt="logo" />
@@ -47,12 +52,10 @@
               <a href=""><i class="fas fa-play"></i> Videos</a>
             </li>
             <li class="col item" id="support">
-              <a class="support" href=""
-                ><i class="fas fa-search"></i> Support</a
-              >
+              <a href=""><i class="fas fa-search"></i> Support</a>
             </li>
-            <li class="col item" id="btn-sign-in">
-              <a href="" type="button">Sign in</a>
+            <li class="col item" id="user">
+              <a href="C:\Users\giait\Desktop\Hot News Project\Hot-News\login.html"> Sign in</a>
             </li>
           </div>
         </ul>
@@ -67,21 +70,25 @@
     <div id="main-container">
     <div class="row">
       <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-        <div
-          class="card"
-          style="
-            
-            padding: 1rem;
-            background-color: rgba(240, 240, 240, 0.811);
-          "
-        >
-          <img src="./images/Crime Uvalde School District.jpg" />
+        <div class="card" style=" padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class = "top">
+            <a href="https://www.cnn.com/2022/05/30/us/uvalde-city-council-pete-arredondo-swearing-in-postponed/index.html"
+              target="_blank">
+              <img class="first-pic"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/220531164807-uvalde-police-chief-pete-arredondo-super-tease.jpg" 
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note"> 
+              <i class="fas fa-microphone fa-beat-fade"></i>
+                LIVE UPDATES
+            </span>
+          </div>
           <div class="p-0 card-body-1st">
             <p class="card-title">
               <span class="title">US </span>
             </p>
             <p class="card-date">
-              <span class="date">May 31, 2022</span>
+              <span class="date"> <i class="fas fa-calendar-alt"></i> May 31, 2022</span>
             </p>
           </div>
           <div class="card-body-2nd">
@@ -99,34 +106,37 @@
               <img class="staff" src="./images/Nick-Watt.jpg" />
             </div>
             <div class="profile ps-3">
-              <a
-                href="https://www.cnn.com/profiles/nick-watt#about"
-                target="_blank"
-                class=""
-                >Nick Watt</a
-              >
-              <p class="position">Correspondent</p>
+              <a href="https://www.cnn.com/profiles/nick-watt#about" target="_blank" class=""> 
+                Nick Watt
+              </a>
+              <p class="position">
+                Correspondent
+              </p>
             </div>
           </div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-        <div
-          class="card"
-          style="
-            
-            padding: 1rem;
-            background-color: rgba(240, 240, 240, 0.811);
-          "
-        >
-          <img src="./images/Russia War's in Ukraine.jpg" />
+        <div class="card" style=" padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/europe/live-news/russia-ukraine-war-news-05-31-22/index.html"
+              target="_blank">
+              <img class="first-pic"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/220602105552-severodonetsk-ukraine-0602-medium-plus-169.jpg" 
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
           <div class="p-0 card-body-1st">
             <p class="card-title">
               <span class="title">World </span>
             </p>
             <p class="card-date">
-              <span class="date">May 31, 2022</span>
+              <span class="date"> <i class="fas fa-calendar-alt"></i> May 31, 2022</span>
             </p>
           </div>
           <div class="card-body-2nd">
@@ -157,21 +167,24 @@
       </div>
 
       <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-        <div
-          class="card"
-          style="
-            
-            padding: 1rem;
-            background-color: rgba(240, 240, 240, 0.811);
-          "
-        >
-          <img src="./images/Massacre.jpg" />
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/2022/05/25/politics/biden-address-congress-deadlock-texas-shooting/index.html" target="_blank">
+              <img class="first-pic"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/220525004916-texas-school-shooting-sign-0524-story-body.jpg" 
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
           <div class="p-0 card-body-1st">
             <p class="card-title">
               <span class="title">Politics </span>
             </p>
             <p class="card-date">
-              <span class="date">May 31, 2022</span>
+              <span class="date"> <i class="fas fa-calendar-alt"></i> May 31, 2022</span>
             </p>
           </div>
           <div class="card-body-2nd">
@@ -202,21 +215,25 @@
       </div>
 
       <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-        <div
-          class="card"
-          style="
-            
-            padding: 1rem;
-            background-color: rgba(240, 240, 240, 0.811);
-          "
-        >
-          <img src="./images/US Supreme Court.jpg" />
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/2022/05/31/tech/supreme-court-texas-social-media-ruling/index.html"
+              target="_blank">
+              <img class="first-pic"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/220531104222-03-supreme-court-may-2022-story-body.jpg" 
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
           <div class="p-0 card-body-1st">
             <p class="card-title">
               <span class="title">Business </span>
             </p>
             <p class="card-date">
-              <span class="date">May 31, 2022</span>
+              <span class="date"> <i class="fas fa-calendar-alt"></i> May 31, 2022</span>
             </p>
           </div>
           <div class="card-body-2nd">
@@ -225,8 +242,8 @@
               target="_blank"
               class=""
             >
-              The Supreme Court of the United States temporarily blocked a
-              sweeping Texas law on Tuesday
+              The Supreme Court of the United States temporarily blocked a sweeping Texas law on Tuesday 
+              that restricts the ability of Facebook, Twitter and YouTube
             </a>
           </div>
           <div class="card-body-3rd" style="display: flex">
@@ -250,21 +267,24 @@
     <!-- 2nd row -->
     <!-- <div class="row"> -->
       <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-        <div
-          class="card"
-          style="
-            
-            padding: 1rem;
-            background-color: rgba(240, 240, 240, 0.811);
-          "
-        >
-          <img src="./images/Infant Formula.jpg" />
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/2022/06/01/health/infant-formula-shipments-supply/index.html" target="_blank">
+              <img class="first-pic"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/220520154216-baby-formula-shortage-file-restricted-051922-story-body.jpg" 
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
           <div class="p-0 card-body-1st">
             <p class="card-title">
               <span class="title">Health </span>
             </p>
             <p class="card-date">
-              <span class="date">June 1, 202</span>
+              <span class="date"> <i class="fas fa-calendar-alt"></i> June 1, 2022</span>
             </p>
           </div>
           <div class="card-body-2nd">
@@ -295,21 +315,24 @@
       </div>
 
       <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-        <div
-          class="card"
-          style="
-            
-            padding: 1rem;
-            background-color: rgba(240, 240, 240, 0.811);
-          "
-        >
-          <img src="./images/The Boy.jpg" />
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/2022/06/02/entertainment/the-boys-season-3-review/index.html" target="_blank">
+              <img class="first-pic"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/220531130925-01-the-boys-ssn-3-story-body.jpg"
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
           <div class="p-0 card-body-1st">
             <p class="card-title">
               <span class="title">Entertainment </span>
             </p>
             <p class="card-date">
-              <span class="date">June 2, 2022</span>
+              <span class="date"> <i class="fas fa-calendar-alt"></i> June 2, 2022</span>
             </p>
           </div>
           <div class="card-body-2nd">
@@ -340,21 +363,23 @@
       </div>
 
       <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-        <div
-          class="card"
-          style="
-            
-            padding: 1rem;
-            background-color: rgba(240, 240, 240, 0.811);
-          "
-        >
-          <img src="./images/Tesla Job.jpg" />
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/2022/06/01/tech/elon-musk-tesla-ends-work-from-home/index.html" target="_blank">
+              <img class="first-pic" src="https://cdn.cnn.com/cnnnext/dam/assets/220520082604-02-elon-musk-0322-story-body.jpg" 
+              style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
           <div class="p-0 card-body-1st">
             <p class="card-title">
               <span class="title">Technology </span>
             </p>
             <p class="card-date">
-              <span class="date">June 2, 2022</span>
+              <span class="date"> <i class="fas fa-calendar-alt"></i> June 2, 2022</span>
             </p>
           </div>
           <div class="card-body-2nd">
@@ -386,21 +411,23 @@
       </div>
 
       <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-        <div
-          class="card"
-          style="
-            
-            padding: 1rem;
-            background-color: rgba(240, 240, 240, 0.811);
-          "
-        >
-          <img src="./images/Cool Running.jpg" />
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/2022/02/18/sport/cool-runnings-tal-stokes-jamaica-winter-olympics-intl-spt/index.html" target="_blank">
+              <img class="first-pic" src="https://cdn.cnn.com/cnnnext/dam/assets/220217093147-01-jamaica-bobsled-olympics-1988-story-body.jpg" 
+              style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
           <div class="p-0 card-body-1st">
             <p class="card-title">
               <span class="title">Sports </span>
             </p>
             <p class="card-date">
-              <span class="date">February 18, 2022</span>
+              <span class="date"> <i class="fas fa-calendar-alt"></i> February 18, 2022</span>
             </p>
           </div>
           <div class="card-body-2nd">
@@ -429,405 +456,455 @@
           </div>
         </div>
       </div>
+
+      <!-- 3rd row -->
+      <!-- <div class="row"> -->
+      <div class="col-lg-3 col-md-4 col-sm-6 my-column">
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/travel/article/world-50-best-breads/index.html" target="_blank">
+              <img class="first-pic"
+                src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_225,c_fill,g_auto,h_127,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F191003172847-36-best-breads-travel.jpg" 
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
+          <div class="p-0 card-body-1st">
+            <p class="card-title">
+              <span class="title">Travel </span>
+            </p>
+            <p class="card-date">
+              <span class="date"> <i class="fas fa-calendar-alt"></i> May 4, 2022</span>
+            </p>
+          </div>
+          <div class="card-body-2nd">
+            <a href="https://www.cnn.com/travel/article/world-50-best-breads/index.html" target="_blank"
+              class="">
+              What is bread? You likely don't have to think for long, and whether you're hungry for a slice of sourdough or craving
+              some tortillas
+            </a>
+          </div>
+          <div class="card-body-3rd" style="display: flex">
+            <div class="reporters">
+              <img class="staff" src="./images/Jen Rose Smith.jpg" />
+            </div>
+            <div class="profile ps-3">
+              <a href="https://www.jenrosesmith.com/" target="_blank" class="">Jen Rose Smith</a>
+              <p class="position">Travel Writer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-sm-6 my-column">
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/2022/06/05/weather/severe-weather-sunday/index.html" target="_blank">
+              <img class="first-pic"
+                src="https://cdn.cnn.com/cnnnext/dam/assets/220605090850-weather-severe-storm-outlook-sunday-story-body.jpg" 
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
+          <div class="p-0 card-body-1st">
+            <p class="card-title">
+              <span class="title">Weather </span>
+            </p>
+            <p class="card-date">
+              <span class="date"> <i class="fas fa-calendar-alt"></i> June 6, 2022</span>
+            </p>
+          </div>
+          <div class="card-body-2nd">
+            <a href="https://www.cnn.com/2022/06/05/weather/severe-weather-sunday/index.html" target="_blank"
+              class="">
+              The central Plains could see severe weather Sunday, according to the National Weather Service's Storm Prediction Center
+            </a>
+          </div>
+          <div class="card-body-3rd" style="display: flex">
+            <div class="reporters">
+              <img class="staff" src="./images/Haley Brink.jpg" />
+            </div>
+            <div class="profile ps-3">
+              <a href="https://www.cnn.com/profiles/haley-brink" target="_blank" class="">Haley Brink</a>
+              <p class="position">CNN meteorologist</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-sm-6 my-column">
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/style/article/japan-designers-sustainable-fashion-technology/index.html" target="_blank">
+              <img class="first-pic"
+                src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_250,c_fill,g_auto,h_141,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F210318235947-03b-japan-sustainable-fashion.jpg" 
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
+          <div class="p-0 card-body-1st">
+            <p class="card-title">
+              <span class="title">Life Style </span>
+            </p>
+            <p class="card-date">
+              <span class="date"> <i class="fas fa-calendar-alt"></i> Mar 18, 2021</span>
+            </p>
+          </div>
+          <div class="card-body-2nd">
+            <a href="https://www.cnn.com/style/article/japan-designers-sustainable-fashion-technology/index.html" target="_blank"
+              class="">
+              With tradition and new tech, these Japanese designers are crafting more sustainably made clothing
+            </a>
+          </div>
+          <div class="card-body-3rd" style="display: flex">
+            <div class="reporters">
+              <img class="staff" src="./images/Lena Vazifdar.jpg" />
+            </div>
+            <div class="profile ps-3">
+              <a href="https://twitter.com/lenavaz?lang=en" target="_blank" class="">Lena Vazifdar</a>
+              <p class="position">Writer and editor, CNN</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-4 col-sm-6 my-column">
+        <div class="card" style="padding: 1rem; background-color: rgba(240, 240, 240, 0.811); border-radius: 1.5rem;">
+          <div class="top">
+            <a href="https://www.cnn.com/style/article/mona-lisa-louvre-cake-attack/index.html"
+              target="_blank">
+              <img class="first-pic"
+                src="https://dynaimage.cdn.cnn.com/cnn/q_auto,w_250,c_fill,g_auto,h_141,ar_16:9/http%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F220530082628-mona-lisa-lourve-france-cake-052922.jpg" 
+                style="border-radius: 1.5rem;"/>
+            </a>
+            <span class="picture-note">
+              <i class="fas fa-microphone fa-beat-fade"></i>
+              LIVE UPDATES
+            </span>
+          </div>
+          <div class="p-0 card-body-1st">
+            <p class="card-title">
+              <span class="title">Art </span>
+            </p>
+            <p class="card-date">
+              <span class="date"> <i class="fas fa-calendar-alt"></i> May 30, 2022</span>
+            </p>
+          </div>
+          <div class="card-body-2nd">
+            <a href="https://www.cnn.com/style/article/mona-lisa-louvre-cake-attack/index.html"
+              target="_blank" class="">
+              The 'Mona Lisa' was the subject of attempted vandalism on Sunday 
+              when a visitor to the world-famous Louvre museum in Paris
+            </a>
+          </div>
+          <div class="card-body-3rd" style="display: flex">
+            <div class="reporters">
+              <img class="staff" src="./images/Jacqui Palumbo.webp" />
+            </div>
+            <div class="profile ps-3">
+              <a href="https://www.jacquipalumbo.com/about" target="_blank" class="">Jacqui Palumbo</a>
+              <p class="position">writer and Producer, CNN</p>
+            </div>
+          </div>
+        </div>
+      </div>
     <!-- </div> -->
     <!-- END CARD LAC -->
-
-    <!-- CARD AN -->
-    <!-- <div class="row"> -->
-        <!-- 1st card -->
-        <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-            <div class = "card" id = "first-card">
-                <div class = "top">
-                    <a href = "https://www.click2houston.com/sports/local/2022/06/02/verlander-nears-another-no-hitter-astros-rally-past-as-5-4/" target = "_blank"
-                    alt ="Houston Astros' Justin Verlander pitches against an Oakland Athletics batter during the first inning of a baseball game in Oakland, Calif., Wednesday, June 1, 2022. (AP Photo/
-                    John Hefti) (John Hefti, Copyright 2022 The Associated Press. All rights reserved)"><img class = "first-pic" src= "images/baseball.avif"></a>
-                    <span class = "picture-note">LIVE UPDATES</span>
-                </div>
-                <div class = "card-body-1st">
-                    <p class = "card-title">
-                        <p class = "title"> Baseball, US</p>
-                        <p class = "date"><i class="fas fa-clock"></i> June 1, 2022</p>
-                    </p>
-                </div>
-                <div class = "card-body-2nd">
-                    <a href = "https://www.click2houston.com/sports/local/2022/06/02/verlander-nears-another-no-hitter-astros-rally-past-as-5-4/" target = "blank">Verlander nears another no-hitter, Astros rally past A's 5-4 </a>
-
-                </div>
-                <div class ="card-body-3rd">
-                    <div class = "d-inline-flex align-items-center">
-                        <div><a href = "https://twitter.com/benrosstweets" target = "blank"><img class ="reporter-photo" src ="images/baseball.jpeg"></a></div>
-                        <div class = "profile">
-                            <div class = "d-flex flex-column">
-                                <a class = "reporter-name" href = "https://twitter.com/benrosstweets" target = "blank">Ben Ross</a>
-                                <a class = "reporter-job" href = "https://twitter.com/benrosstweets" target = "blank">Sport Writer</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- 2nd card -->
-        <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-            <div class = "card" id = "second-card">
-                <div class = "top">
-                    <a href = "https://www.click2houston.com/sports/2022/06/06/leading-off-angels-skid-at-11-mets-at-padres-ray-slumps/" target = "_blank"
-                    alt ="Los Angeles Angels' Mike Trout reacts after he was hit by a pitch during the ninth inning in the second baseball game of a doubleheader against the New York Yan
-                    kees, Thursday, June 2, 2022, in New York. (AP Photo/Frank Franklin II)"><img class = "first-pic" src= "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_400/v1/media/gmg/UB7S7EOBERDQXM6TTPSCFBBSDU.jpg?_a=AJAEtWI0"></a>
-                    <span class = "picture-note">LIVE UPDATES</span>
-                </div>
-                <div class = "card-body-1st">
-                    <p class = "card-title">
-                        <p class = "title"> Baseball, US</p>
-                        <p class = "date"><i class="fas fa-clock"></i> June 5, 2022</p>
-                    </p>
-                </div>
-                <div class = "card-body-2nd">
-                    <a href = "Los Angeles Angels' Mike Trout reacts after he was hit by a pitch during the ninth inning in the second baseball game of a doubleheader against the New York Yankees, Thursday, June 2, 2022, in New York. (AP Photo/Frank Franklin II)" target = "blank">
-                    LEADING OFF: Angels skid at 11, Mets at Padres, Ray slumps </a>
-                </div>
-                <div class ="card-body-3rd">
-                    <div class = "d-inline-flex align-items-center">
-                        <div><a href = "https://twitter.com/benrosstweets" target = "blank"><img class ="reporter-photo" src ="images/baseball.jpeg"></a></div>
-                        <div class = "profile">
-                            <div class = "d-flex flex-column">
-                                <a class = "reporter-name" href = "https://twitter.com/benrosstweets" target = "blank">Ben Ross</a>
-                                <a class = "reporter-job" href = "https://twitter.com/benrosstweets" target = "blank">Associated Press</a>                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- 3rd card -->
-        <div class="col-lg-3 col-md-4 col-sm-6 my-column">
-            <div class = "card" id = "third-card">
-                <div class = "top">
-                    <a href = "https://www.click2houston.com/sports/2022/06/06/warriors-answer-in-game-2-top-celtics-107-88-to-even-finals/" target = "_blank"
-                    alt ="Golden State Warriors guard Jordan Poole (3) celebrates after 
-                    scoring against the Boston Celtics during the second half 
-                    of Game 1 of basketball's NBA Finals in San Francisco, Sunday, June 5, 2022. (AP Photo/Jed Jacobsohn)"><img class = "first-pic" src= "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_scale,w_400/v1/media/gmg/5XX2F32JCZBKFE57M3GWVPEDYM.jpg?_a=ATAK9AA0"></a>
-                    <span class = "picture-note">LIVE UPDATES</span>
-                </div>
-                <div class = "card-body-1st">
-                    <p class = "card-title">
-                        <p class = "title"> Basketball, US</p>
-                        <p class = "date"><i class="fas fa-clock"></i> June 5, 2022</p>
-                    </p>
-                </div>
-                <div class = "card-body-2nd">
-                    <a href = "https://www.click2houston.com/sports/2022/06/06/warriors-answer-in-game-2-top-celtics-107-88-to-even-finals/" target = "blank">
-                        Warriors answer in Game 2, top Celtics 107-88 to even Finals
-                    </a>
-
-                </div>
-                <div class ="card-body-3rd">
-                    <div class = "d-inline-flex align-items-center">
-                        <div>
-                            <a href = "https://twitter.com/bytimreynolds" target = "blank"><img class ="reporter-photo" src ="https://pbs.twimg.com/profile_images/1137061692704092166/hoM__EMk_400x400.jpg"></a>
-                        </div>
-                        <div class = "profile">
-                            <div class = "d-flex flex-column">
-                                <a class = "reporter-name" href = "https://twitter.com/bytimreynolds" target = "blank">Tim Reynolds</a>
-                                <a class = "reporter-job" href = "https://twitter.com/bytimreynolds" target = "blank">Associated Press</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- </div> -->
-    <!-- END CARD AN -->
-
     <!-- END MAIN CONTENT -->
 
     <!-- FOOTER -->
-    <div class="row d-flex first-row-footer">
-      <div class="col-7 ps-4 breaking-news">
-        Breaking News with Hot News Everyday!
+    <div class="row">
+      <div class="row d-flex first-row-footer">
+        <div class="col-7 ps-4 breaking-news">
+          Breaking News with Hot News Everyday!
+        </div>
+        <div class="col-2 first-container">
+          <a href="#" class=""> Audio </a>
+          <a href="#" class="ps-5"> Live TV </a>
+        </div>
+        <div class="col-3">
+          <span class="vl ps-4 pe-4 follow"> FOLLOW HOT NEWS </span>
+          <button class="btn-icon"><i class="fa fa-facebook"></i></button>
+          <button class="btn-icon"><i class="fa fa-twitter"></i></button>
+          <button class="btn-icon"><i class="fa fa-instagram"></i></button>
+        </div>
       </div>
-      <div class="col-2 first-container">
-        <a href="#" class=""> Audio </a>
-        <a href="#" class="ps-5"> Live TV </a>
+      
+      <div class="row d-flex second-row-footer">
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">US</button>
+            </div>
+            <div>
+              <button class="categories">Crime + Justice</button>
+            </div>
+            <div>
+              <button class="categories">Energy + Environment</button>
+            </div>
+            <div>
+              <button class="categories">Extreme Weather</button>
+            </div>
+            <div>
+              <button class="categories">Space + Science</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">World</button>
+            </div>
+            <div>
+              <button class="categories">Data</button>
+            </div>
+            <div>
+              <button class="categories">Analysis</button>
+            </div>
+            <div>
+              <button class="categories">Observation</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">Politics</button>
+            </div>
+            <div>
+              <button class="categories">The Biden Presidency</button>
+            </div>
+            <div>
+              <button class="categories">Facts First</button>
+            </div>
+            <div>
+              <button class="categories">US Election</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">Business</button>
+            </div>
+            <div>
+              <button class="categories">Real Estate</button>
+            </div>
+            <div>
+              <button class="categories">Finance-Stock</button>
+            </div>
+            <div>
+              <button class="categories">Consumption</button>
+            </div>
+            <div>
+              <button class="categories">Business Information</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">Health</button>
+            </div>
+            <div>
+              <button class="categories">After Covid-19</button>
+            </div>
+            <div>
+              <button class="categories">Beauty</button>
+            </div>
+            <div>
+              <button class="categories">Nutrition</button>
+            </div>
+            <div>
+              <button class="categories">Frequently Sickness</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">Entertainment</button>
+            </div>
+            <div>
+              <button class="categories">Stars</button>
+            </div>
+            <div>
+              <button class="categories">Music</button>
+            </div>
+            <div>
+              <button class="categories">Media</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">Tech</button>
+            </div>
+            <div>
+              <button class="categories">Blockchain</button>
+            </div>
+            <div>
+              <button class="categories">Gadget</button>
+            </div>
+            <div>
+              <button class="categories">Mobile</button>
+            </div>
+            <div>
+              <button class="categories">Internet</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">Sports</button>
+            </div>
+            <div>
+              <button class="categories">Football</button>
+            </div>
+            <div>
+              <button class="categories">Soccer</button>
+            </div>
+            <div>
+              <button class="categories">Material Art</button>
+            </div>
+            <div>
+              <button class="categories">Esports</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">Travel</button>
+            </div>
+            <div>
+              <button class="categories">Destinations</button>
+            </div>
+            <div>
+              <button class="categories">Food and Drink</button>
+            </div>
+            <div>
+              <button class="categories">Stays</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">Weather</button>
+            </div>
+            <div>
+              <button class="categories">Climate</button>
+            </div>
+            <div>
+              <button class="categories">Storm Tracker</button>
+            </div>
+            <div>
+              <button class="categories">Wildfire Tracker</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">Life Style</button>
+            </div>
+            <div>
+              <button class="categories">Art</button>
+            </div>
+            <div>
+              <button class="categories">Design</button>
+            </div>
+            <div>
+              <button class="categories">Fashion</button>
+            </div>
+            <div>
+              <button class="categories">Luxury</button>
+            </div>
+            <div>
+              <button class="categories">Videos</button>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-2">
+          <div class="contain">
+            <div>
+              <button class="main">About Us</button>
+            </div>
+            <div>
+              <button class="categories">About Hot News</button>
+            </div>
+            <div>
+              <button class="categories">Careers</button>
+            </div>
+            <div>
+              <button class="categories">News & Blog</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-3">
-        <span class="vl ps-4 pe-4 follow"> FOLLOW HOT NEWS </span>
-        <button class="btn-icon"><i class="fa fa-facebook"></i></button>
-        <button class="btn-icon"><i class="fa fa-twitter"></i></button>
-        <button class="btn-icon"><i class="fa fa-instagram"></i></button>
+      
+      <div class="row d-flex third-row-footer">
+        <div class="col align-item-center">
+          <p class="copyright">
+            <span class="first"> &copy; 2022 Copyright: </span>
+            <span class="second"> HotNews.com </span>
+          </p>
+        </div>
       </div>
     </div>
-
-    <div class="row d-flex second-row-footer">
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">US</button>
-          </div>
-          <div>
-            <button class="categories">Crime + Justice</button>
-          </div>
-          <div>
-            <button class="categories">Energy + Environment</button>
-          </div>
-          <div>
-            <button class="categories">Extreme Weather</button>
-          </div>
-          <div>
-            <button class="categories">Space + Science</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">World</button>
-          </div>
-          <div>
-            <button class="categories">Data</button>
-          </div>
-          <div>
-            <button class="categories">Analysis</button>
-          </div>
-          <div>
-            <button class="categories">Observation</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">Politics</button>
-          </div>
-          <div>
-            <button class="categories">The Biden Presidency</button>
-          </div>
-          <div>
-            <button class="categories">Facts First</button>
-          </div>
-          <div>
-            <button class="categories">US Election</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">Business</button>
-          </div>
-          <div>
-            <button class="categories">Real Estate</button>
-          </div>
-          <div>
-            <button class="categories">Finance-Stock</button>
-          </div>
-          <div>
-            <button class="categories">Consumption</button>
-          </div>
-          <div>
-            <button class="categories">Business Information</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">Health</button>
-          </div>
-          <div>
-            <button class="categories">After Covid-19</button>
-          </div>
-          <div>
-            <button class="categories">Beauty</button>
-          </div>
-          <div>
-            <button class="categories">Nutrition</button>
-          </div>
-          <div>
-            <button class="categories">Frequently Sickness</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">Entertainment</button>
-          </div>
-          <div>
-            <button class="categories">Stars</button>
-          </div>
-          <div>
-            <button class="categories">Music</button>
-          </div>
-          <div>
-            <button class="categories">Media</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">Tech</button>
-          </div>
-          <div>
-            <button class="categories">Blockchain</button>
-          </div>
-          <div>
-            <button class="categories">Gadget</button>
-          </div>
-          <div>
-            <button class="categories">Mobile</button>
-          </div>
-          <div>
-            <button class="categories">Internet</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">Sports</button>
-          </div>
-          <div>
-            <button class="categories">Football</button>
-          </div>
-          <div>
-            <button class="categories">Soccer</button>
-          </div>
-          <div>
-            <button class="categories">Material Art</button>
-          </div>
-          <div>
-            <button class="categories">Esports</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">Travel</button>
-          </div>
-          <div>
-            <button class="categories">Destinations</button>
-          </div>
-          <div>
-            <button class="categories">Food and Drink</button>
-          </div>
-          <div>
-            <button class="categories">Stays</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">Weather</button>
-          </div>
-          <div>
-            <button class="categories">Climate</button>
-          </div>
-          <div>
-            <button class="categories">Storm Tracker</button>
-          </div>
-          <div>
-            <button class="categories">Wildfire Tracker</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">Life Style</button>
-          </div>
-          <div>
-            <button class="categories">Art</button>
-          </div>
-          <div>
-            <button class="categories">Design</button>
-          </div>
-          <div>
-            <button class="categories">Fashion</button>
-          </div>
-          <div>
-            <button class="categories">Luxury</button>
-          </div>
-          <div>
-            <button class="categories">Videos</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div class="contain">
-          <div>
-            <button class="main">About Us</button>
-          </div>
-          <div>
-            <button class="categories">About Hot News</button>
-          </div>
-          <div>
-            <button class="categories">Careers</button>
-          </div>
-          <div>
-            <button class="categories">News & Blog</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row d-flex third-row-footer">
-      <div class="col align-item-center">
-        <p class="copyright">
-          <span class="first"> &copy; 2022 Copyright: </span>
-          <span class="second"> HotNews.com </span>
-        </p>
-      </div>
-    </div>
-
     <!-- END FOOTER -->
 
     <!-- Bootstrap 5 js -->
@@ -837,5 +914,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- <script src="" async defer></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src ="js/index.js"></script>
   </body>
 </html>
