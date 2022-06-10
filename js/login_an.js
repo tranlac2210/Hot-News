@@ -1,33 +1,47 @@
-const USERS = {
-  giaitran: '12101989',
-  lactran: '22101989',
-  annguyen: '01122000',
-};
+// const USERS = {
+//   "giaitran": "12101989",
+//   "lactran": "22101989",
+//   "annguyen": "01122000",
+// }
 
-function login() {
-  var user_name = document.getElementById('user-name').value;
-  var password = document.getElementById('password').value;
-
-  if (user_name === 'giai' && password === 'tran') {
-    alert('User is authenticated');
-    window.location.replace(
-      'file:///C:/Users/giait/Desktop/Hot%20News%20Project/Hot-News/homepage.html'
-    );
-  } else {
-    alert('Invalid username of password');
-  }
-}
+const users = [
+  ["giaitran", "12101989"],
+  ["lactran","22101999"],
+  ["an", '0112'],
+];
 
 // JQuery
+$(document).ready(function()
+      {
+        $("#btn-sign-in").load("An_button.html");
+      });
+
 $(document).on('click', 'button#button-login', function () {
   var user_name = $('input#user-name').val();
   var password = $('input#password').val();
+  
+  for(var i = 0; i< users.length; i++){
+    if (user_name === users[i][0] && password === users[i][1]) {
+      alert('Log in Sucessfully');
+      window.location.replace("file:///Users/nguyenvangiang/Documents/College%20Study/Summer%20Project/Hot-News/an.html");
+      $(document).ready(function()
+      {
+        $("#btn-sign-in").load("An_button.html");
+      });
+      
+      return
+    }
+  } 
+   
+  alert('Invalid username of password');  
+  $('input#user-name').addClass('error');
+  $('input#password').addClass('error');
+    
+    
+    
+  
 
-  if (user_name === 'giai' && password === 'tran') {
-    alert('User is authenticated');
-  } else {
-    alert('Invalid username of password');
-    $('input#user-name').hasClass('error');
-    $('input#password').addClass('error');
-  }
+  
+
 });
+;
