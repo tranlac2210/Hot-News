@@ -1,0 +1,80 @@
+.logo{
+    height: 50px;
+}
+.item{
+    /* padding-top: 10px;
+    padding-left: 3rem;
+    padding-right: 3rem; */
+    list-style: none;
+    text-align: center;
+    padding: 0.5rem;
+    
+}   
+
+.item a{
+    text-decoration: none;
+    color: black;
+    appearance: none;
+    
+}
+
+.item:hover a{
+    color: white;
+}
+
+#news {
+    border-top: solid violet;
+}
+
+#news:hover {
+    background-color: violet;
+    border-top: solid black;
+}
+
+#fashion {
+    border-top: solid green;
+}
+
+#fashion:hover {
+    background-color: green;
+    border-top: solid black;
+}
+
+#sports {
+    border-top: solid red;
+}
+
+#sports:hover {
+    background-color: red;
+    border-top: solid black;
+}
+
+#videos {
+    border-top: solid blue;
+}
+
+#videos:hover {
+    background-color: blue;
+    border-top: solid black;
+}
+
+#support {
+    border-top: solid orangered;
+}
+
+#support:hover {
+    background-color: orangered;
+    border-top: solid black;
+}
+
+
+#btn-sign-in:hover {
+    border-radius: 80%;
+    background-color:aqua;
+}
+
+#btn-sign-in a:active {
+    opacity: 0.8;
+}
+
+

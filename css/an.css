@@ -1,5 +1,6 @@
 body {
     padding: 1.5rem;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
 .row {
@@ -9,7 +10,9 @@ body {
 /* NAV BAR */
 #my-nav-bar {
     margin-bottom: 2rem!important;
+    background-color: transparent !important;
 }
+
 
 .logo{
     height: 50px;
@@ -28,7 +31,7 @@ body {
     text-decoration: none;
     color: black;
     appearance: none;
-    
+    font-size: small;  
 }
 
 .item:hover a{
@@ -36,58 +39,62 @@ body {
 }
 
 #news {
-    border-top: solid violet;
+    border-top: solid #ffb6c1;
+
 }
 
 #news:hover {
-    background-color: violet;
-    border-top: solid black;
+    background-color: #ffb6c1;
+    /* border: 1px solid seashell; */
 }
 
 #fashion {
-    border-top: solid green;
+    border-top: solid #20b2aa;
 }
 
 #fashion:hover {
-    background-color: green;
-    border-top: solid black;
+    background-color: #20b2aa;
+    /* border-top: solid black; */
 }
 
 #sports {
-    border-top: solid red;
+    border-top: solid	#f08080;
 }
 
 #sports:hover {
-    background-color: red;
-    border-top: solid black;
+    background-color: 	#f08080;
+    /* border-top: solid black; */
 }
 
 #videos {
-    border-top: solid blue;
+    border-top: solid 	#66cdaa;
 }
 
 #videos:hover {
-    background-color: blue;
-    border-top: solid black;
+    background-color: 	#66cdaa;
+    /* border-top: solid black; */
 }
 
 #support {
-    border-top: solid orangered;
+    border-top: solid  	#ffa07a;
 }
 
 #support:hover {
-    background-color: orangered;
-    border-top: solid black;
+    background-color: 	#ffa07a;
+    /* border-top: solid black; */
 }
 
 
 #btn-sign-in:hover {
-    border-radius: 80%;
-    background-color:aqua;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);;
 }
 
 #btn-sign-in a:active {
     opacity: 0.8;
+}
+
+.navBar:active ul{
+  border-top: none;
 }
 
 /* END NAV BAR */
@@ -173,7 +180,7 @@ body {
   
   .card{
     padding:10px;
-    /* min-height: 350px; */
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);  
   }
   
   .top{
@@ -192,13 +199,28 @@ body {
     font-weight: 50%;
     background: rgb(234, 23, 23);
   }
+
+  .video-note {
+    font-size: 80%;
+    padding: 1%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    text-align: center;
+    color:white;
+    font-weight: 50%;
+    background: grey;
+  }
+
   .first-pic{
     width: 100%;
+    height: 162px;
   }
   
   /* card-body-1st */
   .card-body-1st{
-    background-color: rgba(240, 240, 240, 0.811);
+    background-color: transparent;
   }
   
   .card-title{
@@ -220,11 +242,11 @@ body {
   
   /* card-body-2nd */
   .card-body-2nd {
-    background-color: rgba(240, 240, 240, 0.811);
-    min-height: 67px;
+    background-color: transparent;
+    min-height: 40px;
   }
   .card-body-2nd a{
-    background-color: rgba(240, 240, 240, 0.811);
+    background-color: transparent;
     border: none;
     text-align: left;
     font-family: Arial;
@@ -243,7 +265,7 @@ body {
   
   /* card-body-3rd */
   .card-body-3rd {
-    background-color: rgba(240, 240, 240, 0.811);
+    background-color: transparent;
   }
   
   .reporter-photo{
@@ -251,18 +273,14 @@ body {
     border-radius: 70px;
     width: 80px;
   }
-  .profile {
-    /* padding:10px; */
-  }
+  /* .profile {
+    padding:10px;
+  } */
   
-  .reporter-job {
-    font-size: 10px;
-    font-weight: 300;  
-  }
   
   .profile a {
     border: none;
-    background-color: rgba(240, 240, 240, 0.811);
+    background-color: transparent;
     font-weight: 500;
     text-decoration: none;
     color: black; 
@@ -275,11 +293,13 @@ body {
   .profile a:active{
     opacity: 0.6;
   }
-  
-  .position{
-    display: inline-block;
-    font-size: 12px;
+
+  .reporter-job {
+    font-size: 10px !important;
+    font-weight: 300 !important;  
   }
+  
+ 
 
 /* END MAIN CONTENT AN */
 
