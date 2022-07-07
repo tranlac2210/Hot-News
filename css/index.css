@@ -80,6 +80,14 @@ body {
     border-top: solid black;
 }
 
+#user {
+  border-top: solid yellowgreen 0.3rem;
+}
+
+#user:hover {
+  background-color: yellowgreen;
+  border-top: solid black 0.3rem;
+}
 /* .item:hover a:last-child{
   background-color: black;
 } */
@@ -88,10 +96,6 @@ body {
     /* border-radius: 80%; */
     /* background-color:aqua; */
     color: black;
-}
-
-#btn-sign-in a:active {
-    /* opacity: 0.8; */
 }
 
 /* END NAV BAR */
@@ -254,9 +258,6 @@ body {
     padding: 10px;
     border-radius: 70px;
     width: 80px;
-  }
-  .profile {
-    /* padding:10px; */
   }
   
   .reporter-job {
